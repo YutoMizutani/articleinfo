@@ -289,6 +289,7 @@ class GetArticleInfoFromCitationControllerStandAloneImpl:
                 print('... -i (citation): Issue')
                 print('... -p (citation): Pages')
                 print('... -d (citation): DOI')
+                print('... -e           : exit')
                 print('... -h           : Hide help')
             text = self.reader.read()
             if text is None:

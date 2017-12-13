@@ -38,6 +38,8 @@ https://qiita.com/under_chilchil/items/ec9d0050c1e3fb6576de
 """ Standard library """
 """ Third party library """
 """ Local library """
+from articleinfo.getArticleInfoFromCitation.getArticleInfoFromCitationController import GetArticleInfoFromCitationControllerStandAloneImpl
+
 # === CONSTANTS ========================================================================================================
 
 # === User Parameters ==================================================================================================
@@ -47,3 +49,7 @@ __version__ = '0.1.0'
 __all__ = ['']
 
 # ======================================================================================================================
+
+
+if __name__ == '__main__':
+    main = GetArticleInfoFromCitationControllerStandAloneImpl()

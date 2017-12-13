@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e8dda17-1cfc-4514-b6ec-7b81d2add472" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/articleinfo/__main__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/articleinfo/__init__.py" afterPath="$PROJECT_DIR$/articleinfo/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationController.py" afterPath="$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationController.py" />
+      <change beforePath="$PROJECT_DIR$/tests/test_all.py" afterPath="$PROJECT_DIR$/tests/test_all.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +38,8 @@
       <file leaf-file-name="test_all.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="438">
+              <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -142,8 +143,18 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/articleinfo/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="593">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__main__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/articleinfo/__main__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="34" selection-end-column="138" />
               <folding />
             </state>
           </provider>
@@ -152,8 +163,8 @@
       <file leaf-file-name="getArticleInfoFromCitationController.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationController.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="546">
+              <caret line="292" column="53" lean-forward="true" selection-start-line="292" selection-start-column="53" selection-end-line="292" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -162,7 +173,7 @@
       <file leaf-file-name="gettableArticleInfo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/gettableArticleInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
+            <state relative-caret-position="-217">
               <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding />
             </state>
@@ -232,7 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/getdoi/getPaperInfoFromCitationFormat/apa_stable.py" />
         <option value="$PROJECT_DIR$/getdoi/getPaperInfoFromCitationFormat/gettableArticleInfoFromCitationFormat.py" />
         <option value="$PROJECT_DIR$/getdoi/getPaperInfoFromCitationFormat/apa.py" />
         <option value="$PROJECT_DIR$/getdoi/getArticleInfoFromCitationFormat/gettable.py" />
@@ -277,12 +287,13 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tests/test_getArticleInfoFromCitationController.py" />
         <option value="$PROJECT_DIR$/tests/test_apa.py" />
-        <option value="$PROJECT_DIR$/tests/test_all.py" />
         <option value="$PROJECT_DIR$/articleinfo/getArticleInfoFromCitationControllerStandAlone.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/articleinfo/__init__.py" />
         <option value="$PROJECT_DIR$/articleinfo/__main__.py" />
+        <option value="$PROJECT_DIR$/tests/test_all.py" />
+        <option value="$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationController.py" />
+        <option value="$PROJECT_DIR$/articleinfo/__init__.py" />
       </list>
     </option>
   </component>
@@ -323,8 +334,7 @@
             <path>
               <item name="articleinfo" type="b2602c69:ProjectViewProjectNode" />
               <item name="articleinfo" type="462c0819:PsiDirectoryNode" />
-              <item name="articleinfo" type="462c0819:PsiDirectoryNode" />
-              <item name="getArticleInfoFromCitation" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -621,6 +631,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17847222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -669,7 +680,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -694,14 +705,6 @@
     <entry file="file://$PROJECT_DIR$/getdoi/getJournalURL/__init__.py" />
     <entry file="file://$PROJECT_DIR$/getdoi/getArticleInfoFromCitation/__init__.py" />
     <entry file="file://$PROJECT_DIR$/getdoi/getDOIFromURL/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/make.bat" />
     <entry file="file://$PROJECT_DIR$/docs/index.rst" />
     <entry file="file://$PROJECT_DIR$/docs/conf.py" />
@@ -709,31 +712,7 @@
     <entry file="file://$PROJECT_DIR$/tests/test_advanced.py" />
     <entry file="file://$PROJECT_DIR$/tests/test_basic.py" />
     <entry file="file://$PROJECT_DIR$/tests/context.py" />
-    <entry file="file://$PROJECT_DIR$/tests/test_apa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_getArticleInfoFromCitationController.py" />
-    <entry file="file://$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/gettableArticleInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/articleinfo/core.py" />
     <entry file="file://$PROJECT_DIR$/articleinfo/helpers.py" />
     <entry file="file://$PROJECT_DIR$/articleinfo/.idea/workspace.xml" />
@@ -746,22 +725,6 @@
           <folding>
             <element signature="e#825#877#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,18 +780,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/articleinfo/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/articleinfo/getArticleInfoFromCitationControllerStandAlone.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_apa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -841,10 +804,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/gettableArticleInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="292" column="53" lean-forward="true" selection-start-line="292" selection-start-column="53" selection-end-line="292" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/articleinfo/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="495">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="34" selection-end-column="138" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articleinfo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -41,13 +41,6 @@ import unittest
 """ Third party library """
 """ Local library """
 from tests.test_apa import TestAPA
-from tests.test_beautifulSoupModel import TestReadEnteredTextImpl
-from tests.test_sciencedirect import TestScienceDirect
-from tests.test_wiley import TestWiley
-from tests.test_springer import TestSpringer
-from tests.test_psycnet import TestPsycNET
-from tests.test_plos import TestPLOS
-from tests.test_pmc import TestPMC
 
 # === CONSTANTS ========================================================================================================
 
@@ -61,17 +54,9 @@ from tests.test_pmc import TestPMC
 class TestAll(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        print('class TestTranslatorKebabCaseImpl(unittest.TestCase):')
+        print('class TestAll(unittest.TestCase):')
         print('def setUpClass(cls):')
-        cls.testReadEnteredTextImpl = TestReadEnteredTextImpl()
-        cls.testTranslatorKebabCaseImpl = TestTranslatorKebabCaseImpl()
-        cls.testReadEnteredTextImpl = TestReadEnteredTextImpl()
-        cls.testScienceDirect = TestScienceDirect()
-        cls.testWiley = TestWiley()
-        cls.testSpringer = TestSpringer()
-        cls.testPsycNET = TestPsycNET()
-        cls.testPLOS = TestPLOS()
-        cls.testPMC = TestPMC()
+        cls.testAPA = TestAPA()
         pass
 
     @classmethod
