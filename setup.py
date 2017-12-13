@@ -17,6 +17,6 @@ setup(
     url='https://github.com/YutoMizutani/articleinfo',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
-    test_suite='tests'
+    test_suite='tests/test_all',
+    scripts=['scripts/articleinfo'],
 )
-

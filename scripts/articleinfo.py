@@ -4,7 +4,7 @@
 # === About ============================================================================================================
 
 """
- __init__.py
+ articleinfo.py
 
 Copyright © 2017 Yuto Mizutani.
 This software is released under the MIT License.
@@ -24,10 +24,8 @@ Python: 3.6.1
 
 # --- References ---
 """
-<package>
-https://www.slideshare.net/kei10in/python-package-constructure
-<github>
-https://qiita.com/under_chilchil/items/ec9d0050c1e3fb6576de
+<directory sample>
+https://github.com/wibiti/uncompyle2
 """
 # --- notes ---
 # --- Information ---
@@ -38,13 +36,16 @@ https://qiita.com/under_chilchil/items/ec9d0050c1e3fb6576de
 """ Standard library """
 """ Third party library """
 """ Local library """
+from articleinfo.getArticleInfoFromCitation.getArticleInfoFromCitationController import GetArticleInfoFromCitationControllerStandAloneImpl
 
 # === CONSTANTS ========================================================================================================
 
 # === User Parameters ==================================================================================================
 
 # === variables ========================================================================================================
-__version__ = '0.1.0'
-__all__ = ['']
 
 # ======================================================================================================================
+
+
+if __name__ == '__main__':
+    main = GetArticleInfoFromCitationControllerStandAloneImpl()
