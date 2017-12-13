@@ -24,7 +24,10 @@ Python: 3.6.1
 
 # --- References ---
 """
+<package>
 https://www.slideshare.net/kei10in/python-package-constructure
+<github>
+https://qiita.com/under_chilchil/items/ec9d0050c1e3fb6576de
 """
 # --- notes ---
 # --- Information ---
@@ -33,15 +36,8 @@ https://www.slideshare.net/kei10in/python-package-constructure
 # === import ===========================================================================================================
 
 """ Standard library """
-# from .core import hmm
-import sys
-import os
 """ Third party library """
 """ Local library """
-from getdoi.reader.readEnteredText import ReadEnteredTextImpl
-from getdoi.reader.readTextFile import ReadTextFile
-from getdoi.translator.translateEscapeSequence import TranslateEscapeSequence
-
 # === CONSTANTS ========================================================================================================
 
 # === User Parameters ==================================================================================================

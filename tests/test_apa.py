@@ -33,7 +33,7 @@ Python: 3.6.1
 import unittest
 """ Third party library """
 """ Local library """
-from getdoi.getArticleInfoFromCitation.apa import APA
+from articleinfo.getArticleInfoFromCitation.apa import APA
 
 # === CONSTANTS ========================================================================================================
 

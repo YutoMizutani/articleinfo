@@ -40,8 +40,7 @@ http://futurismo.biz/archives/4395
 import unittest
 """ Third party library """
 """ Local library """
-from tests.test_readEnteredText import TestReadEnteredTextImpl
-from tests.test_translatorKebabCase import TestTranslatorKebabCaseImpl
+from tests.test_apa import TestAPA
 from tests.test_beautifulSoupModel import TestReadEnteredTextImpl
 from tests.test_sciencedirect import TestScienceDirect
 from tests.test_wiley import TestWiley

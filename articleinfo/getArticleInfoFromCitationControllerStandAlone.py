@@ -32,7 +32,7 @@ Python: 3.6.1
 """ Standard library """
 """ Third party library """
 """ Local library """
-from getdoi.getArticleInfoFromCitation.getArticleInfoFromCitationController import GetArticleInfoFromCitationControllerStandAloneImpl
+from articleinfo.getArticleInfoFromCitation.getArticleInfoFromCitationController import GetArticleInfoFromCitationControllerStandAloneImpl
 
 # === CONSTANTS ========================================================================================================
 
