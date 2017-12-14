@@ -7,7 +7,7 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='articleinfo1',
+    name='articleinfo',
     version='0.1.0',
     description='Get article information from your entered citation text.',
     long_description=readme,
@@ -16,7 +16,7 @@ setup(
     install_requires=[],
     url='https://github.com/YutoMizutani/articleinfo1',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs')),
+    packages=find_packages(exclude=('docs')),
     test_suite='tests',
     scripts=['scripts/articleinfo']
 )
