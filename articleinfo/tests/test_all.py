@@ -40,7 +40,7 @@ http://futurismo.biz/archives/4395
 import unittest
 """ Third party library """
 """ Local library """
-from tests.test_apa import TestAPA
+from articleinfo.tests.test_apa import TestAPA
 
 # === CONSTANTS ========================================================================================================
 
