@@ -37,7 +37,7 @@ Python: 3.6.1
 """ Third party library """
 """ Local library """
 from .gettableArticleInfo import GettableArticleInfo
-from .articleInfo import ArticleInfo
+from articleinfo.articleInfo import ArticleInfo
 
 # === CONSTANTS ========================================================================================================
 

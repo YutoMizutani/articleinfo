@@ -32,7 +32,7 @@ Python: 3.6.1
 """ Standard library """
 """ Third party library """
 """ Local library """
-from .articleInfo import ArticleInfo
+from articleinfo.articleInfo import ArticleInfo
 
 # === CONSTANTS ========================================================================================================
 

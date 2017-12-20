@@ -38,7 +38,7 @@ from enum import Enum
 """ Third party library """
 """ Local library """
 from .gettableArticleInfo import GettableArticleInfo
-from .articleInfo import ArticleInfo
+from articleinfo.articleInfo import ArticleInfo
 from .apa import APA
 
 

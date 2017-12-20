@@ -8,15 +8,24 @@ with open('LICENSE') as f:
 
 setup(
     name='articleinfo',
-    version='0.1.0',
+    version='1.0.0',
     description='Get article information from your entered citation text.',
     long_description=readme,
+    classifiers=[
+        "Development Status :: 2 - Pre-Alpha",
+        "Environment :: MacOS X",
+        "Intended Audience :: Science/Research",
+        "License :: OSI Approved :: MIT License",
+        "Topic :: Software Development :: Build Tools",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3"
+    ],
     author='Yuto Mizutani',
     author_email='yuto.mizutani.dev@gmail.com',
     install_requires=[],
-    url='https://github.com/YutoMizutani/articleinfo1',
+    url='https://github.com/YutoMizutani/articleinfo',
     license=license,
-    packages=find_packages(exclude=('docs')),
+    packages=find_packages(exclude=('tests', 'docs')),
     test_suite='tests',
     scripts=['scripts/articleinfo']
 )

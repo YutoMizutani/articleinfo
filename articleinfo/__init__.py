@@ -30,6 +30,9 @@ https://www.slideshare.net/kei10in/python-package-constructure
 https://qiita.com/under_chilchil/items/ec9d0050c1e3fb6576de
 <folder sample>
 https://github.com/getanewsletter/BeautifulSoup4
+https://github.com/pypa/pip
+<setup>
+https://pypi.python.org/pypi?%3Aaction=list_classifiers
 """
 # --- notes ---
 # --- Information ---
@@ -47,6 +50,7 @@ from articleinfo.getArticleInfoFromCitation.getArticleInfoFromCitationController
 # === User Parameters ==================================================================================================
 
 # === variables ========================================================================================================
+
 __version__ = '0.1.0'
 __author__ = 'Yuto Mizutani (yuto.mizutani.dev@gmail.com)'
 __copyright__ = 'Copyright (c) 2017 Yuto Mizutani'
