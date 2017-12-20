@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e8dda17-1cfc-4514-b6ec-7b81d2add472" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/articleinfo/__init__.py" afterPath="$PROJECT_DIR$/articleinfo/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/apa.py" afterPath="$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/apa.py" />
-      <change beforePath="$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/articleInfo.py" afterPath="$PROJECT_DIR$/articleinfo/articleInfo.py" />
-      <change beforePath="$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationController.py" afterPath="$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/getArticleInfoFromCitationController.py" />
-      <change beforePath="$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/gettableArticleInfo.py" afterPath="$PROJECT_DIR$/articleinfo/getArticleInfoFromCitation/gettableArticleInfo.py" />
-      <change beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
-    </list>
+    <list default="true" id="6e8dda17-1cfc-4514-b6ec-7b81d2add472" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
