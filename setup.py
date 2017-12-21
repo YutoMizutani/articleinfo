@@ -8,7 +8,7 @@ with open('LICENSE') as f:
 
 setup(
     name='articleinfo',
-    version='1.0.01',
+    version='1.0.2',
     description='Get article information from your entered citation text.',
     long_description=readme,
     classifiers=[

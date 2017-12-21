@@ -51,7 +51,6 @@ from articleinfo.getArticleInfoFromCitation.getArticleInfoFromCitationController
 
 # === variables ========================================================================================================
 
-__version__ = '0.1.0'
 __author__ = 'Yuto Mizutani (yuto.mizutani.dev@gmail.com)'
 __copyright__ = 'Copyright (c) 2017 Yuto Mizutani'
 __license__ = 'MIT'
